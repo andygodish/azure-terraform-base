@@ -16,7 +16,7 @@ Additional regions and/or environment directories can be created to maintain mul
 terraform
 └── modules             # Terraform modules accessed by terragrunt
 └── terragrun.hcl       # Shared terraform code
-└── terraform           # Terragrunt code for a specific AWS region
+└── terraform           # Terragrunt code for a specific envs
     ├── dev             # Terragrunt code for a specific environment (e.g. prod, stage, dev)
     |    └── env.yaml   # Environment specific configuration
     └── prod            # Terragrunt code for a specific environment
